@@ -27,7 +27,7 @@ image_extensions = ['.gif','.jpg','.jpeg','.png','.bmp','.gif','.svg','.ico',
                     '.ptx','.pxn','.r3d','.raf','.raw','.rwl','.rw2','.rwz','.srw',
                     '.x3f']
 
-extensions = image_extensions
+extensions = image_extensions + video_extensions + audio_extensions
 
 # function to copy and change file extension
 def copy_and_change_extension(filename, extensions):
